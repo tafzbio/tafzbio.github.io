@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>t4fz </title>
+  <title>t4fz</title>
   <style>
     :root{
       --bg: #000;
@@ -15,7 +15,7 @@
     *{ box-sizing:border-box; }
     body{
       margin:0; font-family: system-ui, sans-serif;
-      background: var(--bg);
+      background: #000 url('estrelas.gif') center center / cover no-repeat;
       color: var(--txt);
       overflow-x:hidden;
     }
@@ -58,15 +58,6 @@
     header p{ color:var(--muted); margin:0; font-size:14px; }
 
     .card{ background:var(--panel); border-radius:12px; padding:20px; margin-bottom:20px; border:1px solid #111; transition: all .3s ease; position:relative; overflow:hidden; }
-    .card::before{
-      content:'';
-      position:absolute;
-      top:0; left:0;
-      width:100%; height:100%;
-      background:url('estrelas.gif') center/cover no-repeat;
-      opacity:0.1;
-      pointer-events:none;
-    }
     .card:hover{ border-color:#333; box-shadow:0 0 25px rgba(255,255,255,0.05); }
     h2{ margin-top:0; font-size:18px; letter-spacing:1px; }
     .links a{
@@ -93,7 +84,7 @@
 
   <div class="container" id="mainContent">
     <header>
-      <img src="https://i.imgur.com/2Y87zLF.png" alt="Foto de perfil">
+      <img src="https://i.imgur.com/4ZQZ4b8.png" alt="Foto de perfil">
       <h1>t4fz</h1>
     </header>
 
